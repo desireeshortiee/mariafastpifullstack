@@ -18,9 +18,9 @@ Frontend (React)
 
 1.	Clone the repository to your local machine:
 
-git clone <repository-url>  
+git clone repository-url
 
-cd <repository-folder>  
+cd repository-folder
 
 
 2.	Install the necessary dependencies for the frontend:
