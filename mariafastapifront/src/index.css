@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.app-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark .app-container {
+  background: #333;
+  color: white;
+}
+
+.todo-container {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004494;
+}
+
+body.dark button {
+  background-color: #444;
+  color: white;
+}
+
+body.dark button:hover {
+  background-color: #666;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f8f9fa;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+body.dark li {
+  background: #222;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.filter-buttons {
+  margin-top: 10px;
+}
+
+.filter-buttons button {
+  background: #6c757d;
+}
+
+.filter-buttons button:hover {
+  background: #5a6268;
+}
+
+body.dark .filter-buttons button {
+  background: #555;
+}
+
+body.dark .filter-buttons button:hover {
+  background: #777;
+}
